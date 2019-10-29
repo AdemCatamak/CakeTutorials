@@ -54,6 +54,7 @@ dlldata.c
 
 # Publish
 [Pp]ublishes/
+[Dd]otnet-publishes/
 
 # DNX
 project.lock.json
