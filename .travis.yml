@@ -1,0 +1,8 @@
+dotnet: 3.0
+before_script:
+- chmod +x ./build.sh
+script:
+  - ./build.sh --branchName=$TRAVIS_BRANCH
+
+notifications:
+  email: false

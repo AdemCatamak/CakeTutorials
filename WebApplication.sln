@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{EDAD3A19-2D1B-45AF-8353-8ED014EDF93F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApplicationTest", "WepApplicationTest\WepApplicationTest.csproj", "{AAE5DE48-78CE-4163-B3D3-6ACDE4ADC110}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{1C8C3E65-7323-4F3E-8834-038BB1850FF8}"
+ProjectSection(SolutionItems) = preProject
+	build.cake = build.cake
+	build.config = build.config
+	build.ps1 = build.ps1
+	build.sh = build.sh
+	NuGet.config = NuGet.config
+	.gitattributes = .gitattributes
+	.gitignore = .gitignore
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDAD3A19-2D1B-45AF-8353-8ED014EDF93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAD3A19-2D1B-45AF-8353-8ED014EDF93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAD3A19-2D1B-45AF-8353-8ED014EDF93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAD3A19-2D1B-45AF-8353-8ED014EDF93F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE5DE48-78CE-4163-B3D3-6ACDE4ADC110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE5DE48-78CE-4163-B3D3-6ACDE4ADC110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE5DE48-78CE-4163-B3D3-6ACDE4ADC110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE5DE48-78CE-4163-B3D3-6ACDE4ADC110}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
