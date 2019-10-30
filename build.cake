@@ -1,3 +1,5 @@
+#tool nuget:?package=Cake.CoreCLR&version=0.35.0
+
 string BranchName = Argument("branchName", string.Empty);
 string SelectedEnvironment = string.Empty;
 
