@@ -1,0 +1,1 @@
+This project's master branch has no code. On the other hand, every use-case has been implemented on its own branch.
